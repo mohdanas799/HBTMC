@@ -10,31 +10,31 @@ const DepartmentsSection = () => {
       name: "Anatomy",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-      icon: "./public/2867197 1.png", // Corrected path
+      icon: "https://i.ibb.co/3SL29LW/2867197-1.png", // Corrected path
     },
     {
       name: "Biochemistry",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-      icon: "./public/2867197 1.png",
+      icon: "https://i.ibb.co/3SL29LW/2867197-1.png",
     },
     {
       name: "Pathology",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-      icon: "./public/2867197 1.png",
+      icon: "https://i.ibb.co/3SL29LW/2867197-1.png",
     },
     {
       name: "Pharmacology",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-      icon: "./public/2867197 1.png",
+      icon: "https://i.ibb.co/3SL29LW/2867197-1.png",
     },
     {
       name: "Physiology",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-      icon: "./public/2867197 1.png",
+      icon: "https://i.ibb.co/3SL29LW/2867197-1.png",
     },
   ];
 

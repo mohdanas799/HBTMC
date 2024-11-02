@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="flex justify-between  items-center px-[4rem] dm:px-2 py-4 bg-gray-100">
         <div className="flex items-center space-x-[300px] dm:space-x-[10px]">
           <img
-            src="./public/Untitled-1 1.png"
+            src="https://i.ibb.co/z611bTt/Untitled-1-1.png"
             alt="Left Logo"
             className="w-16 h-16"
           />
@@ -31,7 +31,7 @@ const Navbar = () => {
             </h1>
           </div>
           <img
-            src="./public/Untitled-1 1.png"
+            src="https://i.ibb.co/z611bTt/Untitled-1-1.png"
             alt="Right Logo"
             className="w-16 h-16"
           />

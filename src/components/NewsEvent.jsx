@@ -19,21 +19,21 @@ const NewsEventsSection = () => {
             >
               <SwiperSlide>
                 <img
-                  src="./public/Rectangle 239.png"
+                  src="https://i.ibb.co/JpJ0gRy/Rectangle-239.png"
                   alt="News Image 1"
                   className="w-full h-auto rounded-lg"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
-                  src="./public/Rectangle 239.png"
+                  src="https://i.ibb.co/JpJ0gRy/Rectangle-239.png"
                   alt="News Image 2"
                   className="w-full h-auto rounded-lg"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
-                  src="./public/Rectangle 239.png"
+                  src="https://i.ibb.co/JpJ0gRy/Rectangle-239.png"
                   alt="News Image 3"
                   className="w-full h-auto rounded-lg"
                 />

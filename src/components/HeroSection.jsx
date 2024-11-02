@@ -13,7 +13,7 @@ const DeansMessageSection = () => {
           {/* Left Image */}
           <div className="relative">
             <img
-              src="./public/image 11.png" // Replace with actual image URL
+              src="https://i.ibb.co/42ZMnSz/image-11.png" // Replace with actual image URL
               alt="Hospital Building"
               className="w-full h-full object-cover"
             />
@@ -44,7 +44,7 @@ const DeansMessageSection = () => {
             </div>
             <div className="absolute top-28 right-28 dm:top-10 dm:right-4">
               <img
-                src="./public/Mask group.png" // Replace with actual image URL
+                src="https://i.ibb.co/gdL2FSV/Mask-group.png" // Replace with actual image URL
                 alt="Dean Dr. Shailesh C. Mohite"
                 className="w-40 h-40 rounded object-cover"
               />

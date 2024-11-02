@@ -57,14 +57,14 @@
 import React, { useState } from 'react';
 
 const images = [
-  './public/Rectangle 239.png',
-  './public/Rectangle 239.png',
-  './public/Rectangle 239.png',
-  './public/Rectangle 239.png',
-  './public/Rectangle 239.png',
-  './public/Rectangle 239.png',
-  './public/Rectangle 239.png',
-  './public/Rectangle 239.png',
+  'https://i.ibb.co/JpJ0gRy/Rectangle-239.png',
+  'https://i.ibb.co/JpJ0gRy/Rectangle-239.png',
+  'https://i.ibb.co/JpJ0gRy/Rectangle-239.png',
+  'https://i.ibb.co/JpJ0gRy/Rectangle-239.png',
+  'https://i.ibb.co/JpJ0gRy/Rectangle-239.png',
+  'https://i.ibb.co/JpJ0gRy/Rectangle-239.png',
+  'https://i.ibb.co/JpJ0gRy/Rectangle-239.png',
+  'https://i.ibb.co/JpJ0gRy/Rectangle-239.png',
 ];
 
 const Gallery = () => {
