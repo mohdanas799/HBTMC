@@ -10,6 +10,7 @@ import InfoSections from '../components/Section1'
 const Home = () => {
   return (
     <div>
+        <Navbar/>
         <HeroSection/>
         <NewsEventsSection/>
         <DepartmentsSection/>

@@ -4,8 +4,8 @@ import { FaArrowAltCircleRight } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="bg-[#2C315D] px-20 dm:px-5 text-white p-8">
-      <div className="container mx-auto grid md:grid-cols-3 gap-8">
+    <footer className="bg-[#2C315D]  text-white p-6 dm:py-6 dm:px-6 ">
+      <div className="container mx-auto px-16 dm:px-0 grid md:grid-cols-3 gap-8">
         {/* About Us Section */}
         <div>
           <h2 className="text-xl font-semibold mb-4">About Us</h2>

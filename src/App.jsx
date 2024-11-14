@@ -10,14 +10,17 @@ import {
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
+import Anatomy from "./pages/Anatomy";
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <Navbar />
+        {/* <Navbar /> */}
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/anatomy" element={<Anatomy />} />
+
         </Routes>
         <Footer/>
       </BrowserRouter>

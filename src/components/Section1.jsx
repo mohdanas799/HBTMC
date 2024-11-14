@@ -1,4 +1,3 @@
-// InfoSections.js
 import React from "react";
 
 const sections = [
@@ -73,20 +72,26 @@ const sections = [
 
 const InfoSections = () => {
   return (
-    <div className="bg-yellow-600 text-black px-20 dm:px-5 p-8">
-      {sections.map((section, index) => (
-        <div key={index} className="mb-6">
-          <h3 className="text-2xl font-semibold mb-2">{section.title}</h3>
-          <p className="text-gray-800 font-sanss">
-            {section.links.map((link, i) => (
-              <span key={i}>
-                {link}
-                {i < section.links.length - 1 && " | "}
-              </span>
-            ))}
-          </p>
-        </div>
-      ))}
+    <div className="bg-[#F0BC71E5] text-[#414141] dm:py-6 dm:px-3 p-6">
+      <div className=" container mx-auto px-16 dm:px-2">
+        {sections.map((section, index) => (
+          <div key={index} className="mb-6">
+            <h3 className="text-2xl sm:text-3xl font-semibold mb-3">
+              {section.title}
+            </h3>
+            <p className="text-gray-800 font-sans text-sm sm:text-base">
+              {section.links.map((link, i) => (
+                <span key={i} className="block sm:inline">
+                  {link}
+                  {i < section.links.length - 1 && (
+                    <span className="hidden sm:inline"> | </span>
+                  )}
+                </span>
+              ))}
+            </p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
