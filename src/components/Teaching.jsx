@@ -33,7 +33,7 @@ const Teaching = () => {
               <th className="p-4 border-l border-white rounded-tr-xl">Designation</th>
             </tr>
           </thead>
-          <tbody className="text-gray-700">
+          <tbody className="text-gray-700 font-sanss">
             {/* Teaching Faculty Rows */}
             {[
               { id: 1, name: "Dr. Mehera Bhoir", designation: "Professor & Head" },
@@ -69,7 +69,7 @@ const Teaching = () => {
               <th className="p-4 border-l border-white rounded-tr-xl">Designation</th>
             </tr>
           </thead>
-          <tbody className="text-gray-700">
+          <tbody className="text-gray-700 font-sanss">
             {/* Non-Teaching Staff Rows */}
             {[
               { id: 1, name: "Mr. Sameer Ausekar", designation: "Lab-Technician" },

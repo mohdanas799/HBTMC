@@ -21,7 +21,7 @@ const TimeTable = () => {
               <th className="p-3 text-left rounded-tr-lg">10:15 AM - 11:00 AM</th>
             </tr>
           </thead>
-          <tbody className="text-gray-700">
+          <tbody className="text-gray-700 font-sanss">
             {/* Row 1 */}
             <tr className="border-b">
               <td className="p-3">01-09-2023 Friday</td>

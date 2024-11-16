@@ -7,7 +7,7 @@ const Activities = () => {
       <h2 className="text-3xl font-bold mb-8">Activities of the Department</h2>
 
       {/* Upcoming Events */}
-      <div className="mb-8">
+      <div className="mb-8 font-sanss">
         <h3 className="text-xl font-semibold mb-2">Upcoming Events</h3>
         <ul className="list-disc pl-5">
           <li>World Organ Donation Day - 13th August 2022</li>
@@ -17,7 +17,7 @@ const Activities = () => {
       {/* Awards */}
       <div className="mb-8">
         <h3 className="text-xl font-semibold mb-2">Awards</h3>
-        <p>
+        <p className="font-sanss">
           <strong>Addition:</strong> Dr. Mehera Bhoir was awarded the Savitribai Phule Award by the SPGRC and MCGM in her capacity as the Chairperson of the PSHWW Committee on the occasion of International Women’s Day on 8th March 2022.
         </p>
       </div>
@@ -25,7 +25,7 @@ const Activities = () => {
       {/* UG Section */}
       <div className="mb-8">
         <h3 className="text-xl font-semibold mb-2">UG</h3>
-        <p>
+        <p className="font-sanss">
           The department of Anatomy imparts holistic medical education to 200 undergraduate medical students in accordance with the CBME guidelines provided by the NMC, including all aspects of human anatomy as well as bioethics, AETCOM, ECE, SDL, and foundation courses to mold competent and compassionate healthcare providers of the future. The department also encourages an innovative approach to teaching and promotes research in the field of Anatomy.
         </p>
       </div>
@@ -33,7 +33,7 @@ const Activities = () => {
       {/* PG Section */}
       <div className="mb-8">
         <h3 className="text-xl font-semibold mb-2">PG</h3>
-        <p>
+        <p className="font-sanss">
           The department has been approved to train 5 postgraduate students for MD Anatomy degree by MUHS and NMC.
         </p>
       </div>
@@ -41,7 +41,7 @@ const Activities = () => {
       {/* Research Publications */}
       <div className="mb-8">
         <h3 className="text-xl font-semibold mb-2">Research Publications (2019-20, 2020-21)</h3>
-        <ul className="list-disc pl-5">
+        <ul className="list-disc pl-5 font-sanss">
           <li>
             Bilateral variations in the terminal branches of facial nerve - a case report<br />
             <strong>Authors:</strong> Alka Bhingardeo, Mehera Bhoir, Tejas Shelar<br />
@@ -88,13 +88,13 @@ const Activities = () => {
       {/* Additional Courses */}
       <div className="mb-8">
         <h3 className="text-xl font-semibold mb-2">Additional Courses</h3>
-        <p>Teaching 1st year Nursing students.</p>
+        <p className="font-sanss">Teaching 1st year Nursing students.</p>
       </div>
 
       {/* CMEs and Other Activities */}
       <div className="mb-8">
         <h3 className="text-xl font-semibold mb-2">Details of Following Activities Since Inception</h3>
-        <ul className="list-disc pl-5">
+        <ul className="list-disc pl-5 font-sanss">
           <li>Conducted the following CMEs:</li>
           <ul className="list-disc pl-10">
             <li>Medical Genetics in 2016</li>

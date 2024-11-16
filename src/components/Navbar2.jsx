@@ -64,7 +64,7 @@ const Navbar2 = () => {
             isOpen ? "block" : "hidden"
           } md:flex bg-[#2C315D] text-white py-3 px-16 dm:px-0`}
         >
-          <div className="container mx-auto flex flex-col md:flex-row  justify-between px-4">
+          <div className="container mx-auto flex font-sanss flex-col md:flex-row  justify-between px-4">
             <ul className="flex flex-col text-xl dm:text-left md:flex-row md:space-x-12 space-y-2 md:space-y-0">
               <li>
                 <a href="/" className="hover:underline">
@@ -122,9 +122,9 @@ const Navbar2 = () => {
         </div>
       </nav>
       {/* Hero Section */}
-      <div className="bg-orange-100 p-8">
+      <div className="bg-[#F0BC71E5] p-8">
         <div className="container mx-auto">
-          <h1 className="text-4xl font-bold mb-4">Anatomy</h1>
+          <h1 className="text-4xl font-sans font-bold mb-4">Anatomy</h1>
           <div className="text-gray-600 flex items-center space-x-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
