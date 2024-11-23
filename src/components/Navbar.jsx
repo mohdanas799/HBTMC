@@ -30,7 +30,7 @@ const Navbar = () => {
           <img
             src="https://i.ibb.co/z611bTt/Untitled-1-1.png"
             alt="Left Logo"
-            className="w-16 h-16 xxl:hidden "
+            className="w-16 h-16 xxl:hidden dm:flex"
           />
             <h1 className="text-2xl dm:text-lg font-sans font-bold">
               Hinduhridaysamrat Balasaheb Thackeray Medical College <br />
