@@ -30,7 +30,7 @@ const Navbar = () => {
           <img
             src="https://i.ibb.co/z611bTt/Untitled-1-1.png"
             alt="Left Logo"
-            className="w-16 h-16 xxl:hidden dm:flex"
+            className="w-16 h-16 hidden dm:flex"
           />
             <h1 className="text-2xl dm:text-lg font-sans font-bold">
               Hinduhridaysamrat Balasaheb Thackeray Medical College <br />
@@ -82,14 +82,14 @@ const Navbar = () => {
               <li><a href="#" className="hover:underline">Patients</a></li>
               <li><a href="#" className="hover:underline">Contact Us</a></li>
             </ul>
-            <div className="hidden md:flex items-center bg-gray-200 p-2 rounded-md">
+            <div className="hidden md:flex -my-3 -mr-20 pr-20 items-center bg-gray-200 p-2 ">
               <input
                 type="text"
                 placeholder="Search"
-                className="bg-gray-200 text-[#2C315D] outline-none text-sm"
+                className="bg-gray-200 text-[#2C315D]   outline-none text-sm"
               />
               <button>
-                <svg className="h-4 w-4 text-[#2C315D]" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="h-4 w-4  text-[#2C315D]" fill="currentColor" viewBox="0 0 20 20">
                   <path
                     fillRule="evenodd"
                     d="M12.9 14.32a8 8 0 111.41-1.41l4.38 4.37a1 1 0 01-1.41 1.42l-4.38-4.38zM10 16a6 6 0 100-12 6 6 0 000 12z"
@@ -99,6 +99,7 @@ const Navbar = () => {
               </button>
             </div>
           </div>
+         
         </div>
       </nav>
     </header>
