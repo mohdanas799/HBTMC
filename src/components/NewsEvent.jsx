@@ -6,10 +6,10 @@ import "swiper/css/pagination";
 
 const NewsEventsSection = () => {
   return (
-    <div className="bg-gray-100 py-12 px-20">
-      <div className="container mx-auto grid md:grid-cols-2 items-center gap-6">
+    <div className="bg-gray-100 py-12 pl-">
+      <div className="container mx-auto grid md:grid-cols-2 gap-10 items-start px-6 md:px-20">
         {/* News & Events Section */}
-        <div className="bg-white rounded-xl w-[55rem] dm:w-[345px] dm:mx-[-65px] shadow-lg p-4 md:p-6">
+        <div className="bg-white rounded-xl w-[51rem]  shadow-lg p-6 md:p-8">
           <h2 className="text-xl md:text-2xl font-bold mb-4 text-gray-900 border-b pb-3">
             News & Events
           </h2>
@@ -17,10 +17,7 @@ const NewsEventsSection = () => {
             <Swiper
               modules={[Autoplay, Pagination]}
               autoplay={{ delay: 5000, disableOnInteraction: false }}
-              pagination={{
-                clickable: true,
-                el: ".custom-pagination", // This ensures the pagination uses the custom class
-              }}
+              pagination={{ clickable: true, el: ".custom-pagination" }}
               loop
               className="news-swiper"
             >
@@ -52,7 +49,7 @@ const NewsEventsSection = () => {
         </div>
 
         {/* Achievements Section */}
-        <div className="bg-white rounded-xl shadow-lg p-16 w-[60%] dm:w-[345px] dm:p-6 dm:mx-[-65px] ml-56 md:p-10">
+        <div className="bg-white rounded-xl w-[60%] ml-40 shadow-lg p-6 md:p-8">
           <h2 className="text-xl md:text-2xl font-bold mb-4 text-gray-900 border-b pb-3">
             Achievements
           </h2>

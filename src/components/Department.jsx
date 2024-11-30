@@ -54,7 +54,7 @@ const DepartmentsSection = () => {
         <h2 className="text-left text-4xl font-bold mb-8">Departments</h2>
 
         {/* Navigation Icons positioned at the top-right */}
-        <div className="absolute top-4 right-4 flex gap-4">
+        <div className="absolute top-4 right-20 flex gap-4">
           <div
             className="w-10 h-10 rounded-full bg-gray-300 flex items-center justify-center cursor-pointer hover:bg-gray-400 transition-colors duration-200"
             onClick={handlePrev}

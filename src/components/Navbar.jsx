@@ -70,7 +70,7 @@ const Navbar = () => {
         </div>
 
         {/* Bottom Section */}
-        <div className={`${isOpen ? 'block' : 'hidden'} md:flex bg-[#2C315D] text-white py-3 px-16 dm:px-0`}>
+        <div className={`${isOpen ? 'block' : 'hidden'} md:flex bg-[#2C315D] text-white container mx-auto py-3 px-16 dm:px-0`}>
           <div className="container mx-auto flex flex-col md:flex-row  justify-between px-4">
             <ul className="flex flex-col  dm:text-left md:flex-row md:space-x-6 space-y-2 md:space-y-0">
               <li><a href="/" className="hover:underline">Home</a></li>
